@@ -6,6 +6,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddApiConfiguration(builder.Configuration, builder.Environment);
+builder.Services.AddServices();
 
 var app = builder.Build();
 
