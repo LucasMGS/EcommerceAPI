@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gz7hOHa9DWdyB47V9MT3Z3kHlAKmyxneqNoXoHApPNA=",
+  "Source": "NSE.Cart.API",
+  "BasePath": "_content/NSE.Cart.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

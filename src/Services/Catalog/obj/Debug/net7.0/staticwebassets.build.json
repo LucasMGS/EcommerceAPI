@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "K6dubYfOm8Jm6civsdBOdC6yn+Q4YwrkCruQynUR2Xs=",
+  "Source": "NSE.Catalog.API",
+  "BasePath": "_content/NSE.Catalog.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

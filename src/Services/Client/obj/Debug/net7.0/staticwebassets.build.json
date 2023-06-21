@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "GTfsWawa+fI2smQu2pbBevhBEXGLQUeKnkDatqBQzT8=",
+  "Source": "NSE.Client.API",
+  "BasePath": "_content/NSE.Client.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

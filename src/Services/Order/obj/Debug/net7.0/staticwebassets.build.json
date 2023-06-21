@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "CG5eFPDSXlJtlLqPi8gMkfU43b6aLs5ymjl/gKpKzsM=",
+  "Source": "NSE.Order.API",
+  "BasePath": "_content/NSE.Order.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

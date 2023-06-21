@@ -1,0 +1,12 @@
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\Core\bin\Debug\net7.0\NSE.Core.deps.json
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\Core\bin\Debug\net7.0\NSE.Core.dll
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\Core\bin\Debug\net7.0\NSE.Core.pdb
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\Core\obj\Debug\net7.0\NSE.Core.csproj.AssemblyReference.cache
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\Core\obj\Debug\net7.0\NSE.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\Core\obj\Debug\net7.0\NSE.Core.AssemblyInfoInputs.cache
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\Core\obj\Debug\net7.0\NSE.Core.AssemblyInfo.cs
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\Core\obj\Debug\net7.0\NSE.Core.csproj.CoreCompileInputs.cache
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\Core\obj\Debug\net7.0\NSE.Core.dll
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\Core\obj\Debug\net7.0\refint\NSE.Core.dll
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\Core\obj\Debug\net7.0\NSE.Core.pdb
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\Core\obj\Debug\net7.0\ref\NSE.Core.dll

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "im/Bs8eDhhMIqudu0zD/Ip+aXpps+PKWkgoPYvB7Fl4=",
+  "Source": "NSE.Payment.API",
+  "BasePath": "_content/NSE.Payment.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
