@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fma+1oxzFN0b0Dy0zW4agtALBYrCtJtN1XFIfblET8Ho+H84BQ5RgWgOfm7GEREqr3amffialKaBNPgn9vza6Q==",
+  "dgSpecHash": "5zusJX4X6WTkiDblNagK7i93ZxTXia3FgjyCwWZfopwUsodJRPylJj/27ZGQPkA5wLdD0ceEFm8iL1AUeScsPw==",
   "success": true,
-  "projectFilePath": "c:\\src\\C#\\NerdStoreEnterprise\\src\\Services\\Order\\NSE.Order.API.csproj",
+  "projectFilePath": "C:\\src\\C#\\NerdStoreEnterprise\\src\\Services\\Order\\NSE.Order.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

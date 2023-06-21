@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0DQ49CqmKiVw8cdm37RPAjJBzgi7CN4ge4GW+uBQ+ROFW5RTpFpCFMI5P4iLhxObQgNpk3/HoXOzfaAj+bD4Sw==",
+  "dgSpecHash": "C+JJa35LhFzM8+bBNAUh6tdLEjfBbcL+dk21/aV1x3g3nW93PCh9yunpHFqDg0J9xHqbOIwOL6zRXS6gFIrW0Q==",
   "success": true,
-  "projectFilePath": "c:\\src\\C#\\NerdStoreEnterprise\\src\\Services\\Identity\\NSE.Identity.API.csproj",
+  "projectFilePath": "C:\\src\\C#\\NerdStoreEnterprise\\src\\Services\\Identity\\NSE.Identity.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.7\\microsoft.aspnetcore.authentication.jwtbearer.7.0.7.nupkg.sha512",

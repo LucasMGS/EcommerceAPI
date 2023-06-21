@@ -68,7 +68,4 @@ private readonly IAuthService _authService;
     AddErrorToStack("Usuário ou senha incorretos");
     return CustomResponse();
   }
-
-
- 
 }

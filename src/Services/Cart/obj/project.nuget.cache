@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Au1QZ+FLb4M99AYaEPX4VSf7Sn0x9AV7o7vUjz+Gw6HI3KNJo6ILqeKno4/o/jVqIQrEW+z/+NY8/CSPm3dTgg==",
+  "dgSpecHash": "fWWP91lT9qD71+cWERucfpL0z89DmVOPd+6jcIkLyKo0K8Uvx4+CRh3MDAWjJkE/s37RstL/r9uzDhwChGG3bg==",
   "success": true,
-  "projectFilePath": "c:\\src\\C#\\NerdStoreEnterprise\\src\\Services\\Cart\\NSE.Cart.API.csproj",
+  "projectFilePath": "C:\\src\\C#\\NerdStoreEnterprise\\src\\Services\\Cart\\NSE.Cart.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

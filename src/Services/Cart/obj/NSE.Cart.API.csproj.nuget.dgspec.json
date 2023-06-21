@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\src\\C#\\NerdStoreEnterprise\\src\\Services\\Cart\\NSE.Cart.API.csproj": {}
+    "C:\\src\\C#\\NerdStoreEnterprise\\src\\Services\\Cart\\NSE.Cart.API.csproj": {}
   },
   "projects": {
-    "c:\\src\\C#\\NerdStoreEnterprise\\src\\Services\\Cart\\NSE.Cart.API.csproj": {
+    "C:\\src\\C#\\NerdStoreEnterprise\\src\\Services\\Cart\\NSE.Cart.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\src\\C#\\NerdStoreEnterprise\\src\\Services\\Cart\\NSE.Cart.API.csproj",
+        "projectUniqueName": "C:\\src\\C#\\NerdStoreEnterprise\\src\\Services\\Cart\\NSE.Cart.API.csproj",
         "projectName": "NSE.Cart.API",
-        "projectPath": "c:\\src\\C#\\NerdStoreEnterprise\\src\\Services\\Cart\\NSE.Cart.API.csproj",
+        "projectPath": "C:\\src\\C#\\NerdStoreEnterprise\\src\\Services\\Cart\\NSE.Cart.API.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "c:\\src\\C#\\NerdStoreEnterprise\\src\\Services\\Cart\\obj\\",
+        "outputPath": "C:\\src\\C#\\NerdStoreEnterprise\\src\\Services\\Cart\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

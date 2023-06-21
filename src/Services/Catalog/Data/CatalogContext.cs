@@ -1,13 +1,19 @@
 using Microsoft.EntityFrameworkCore;
 using NSE.Catalog.API.Models;
+using NSE.Core.Data;
 
 namespace NSE.Catalog.API.Data;
 
-public class CatalogContext : DbContext
+public class CatalogContext : DbContext, IUnitOfWork
 {
     public CatalogContext(DbContextOptions<CatalogContext> options) : base(options) { }
 
-    public DbSet<Product> Produtos { get; set; }
+    public DbSet<Product> Products { get; set; }
+
+    public async Task<bool> Commit()
+    {
+        return await base.SaveChangesAsync() > 0;   
+    }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

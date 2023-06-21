@@ -85,7 +85,7 @@ static class ApiConfiguration
         Title = "NerdStore Enterprise Identity API",
         Description = "Esta API é sobre a loja nerdStore enterprise",
         Contact = new OpenApiContact { Name = "Lucas Moreira", Email = "lucasmgs21@gmail.com" },
-        License = new OpenApiLicense { Name = "MIT", Url = new Uri("https://opensource.org") }
+        License = new OpenApiLicense { Name = "MIT", Url = new Uri("https://opensource.org/licenses/MIT") }
     });
 });
     return service;
