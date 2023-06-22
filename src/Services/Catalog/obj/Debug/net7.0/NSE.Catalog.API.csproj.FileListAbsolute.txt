@@ -52,3 +52,6 @@ C:\src\C#\NerdStoreEnterprise\src\Services\Catalog\bin\Debug\net7.0\Microsoft.Id
 C:\src\C#\NerdStoreEnterprise\src\Services\Catalog\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
 C:\src\C#\NerdStoreEnterprise\src\Services\Catalog\bin\Debug\net7.0\NSE.WebAPI.Core.dll
 C:\src\C#\NerdStoreEnterprise\src\Services\Catalog\bin\Debug\net7.0\NSE.WebAPI.Core.pdb
+C:\src\C#\NerdStoreEnterprise\src\Services\Catalog\bin\Debug\net7.0\FluentValidation.dll
+C:\src\C#\NerdStoreEnterprise\src\Services\Catalog\bin\Debug\net7.0\MediatR.dll
+C:\src\C#\NerdStoreEnterprise\src\Services\Catalog\bin\Debug\net7.0\MediatR.Contracts.dll

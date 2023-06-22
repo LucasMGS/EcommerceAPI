@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "HSos+5uJ0spcV8vx7Vgra+Xhy76/sK0Oc2iw4zL2dAAjaHo9Wwl+ufcZuV1l8G+hDWA6fo9bq+E7PJqjdcRqBw==",
+  "dgSpecHash": "MXHaoO4bfAlF6V+S53BpFa2bTjh5JWL4Xy0htJafZa4vB6UPu55+xZOvmTCW9m9g59TCT9k2Wrywsy2pk0l3nA==",
   "success": true,
   "projectFilePath": "C:\\src\\C#\\NerdStoreEnterprise\\src\\Services\\Catalog\\NSE.Catalog.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\lucas\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.7\\microsoft.aspnetcore.authentication.jwtbearer.7.0.7.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

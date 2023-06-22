@@ -1,9 +1,36 @@
+using NSE.Core.Messages;
+
 namespace NSE.Core.DomainObjects
 {
     public abstract class Entity
     {
         public Guid Id { get; set; }
 
+        protected Entity() 
+        { 
+            Id = Guid.NewGuid();
+        }
+
+        private List<Event> _notifications;
+        public IReadOnlyCollection<Event>? Notifications => _notifications?.AsReadOnly();
+
+        public void AddEvent(Event evt)
+        {
+            _notifications ??= new List<Event>();
+            _notifications.Add(evt);
+        }
+
+        public void RemoveEvent(Event evt)
+        {
+            _notifications?.Remove(evt);
+        }
+
+        public void CleanEvents()
+        {
+            _notifications?.Clear();
+        }
+
+        #region Comparisons
         public override bool Equals(object obj)
         {
             var compareTo = obj as Entity;
@@ -39,5 +66,7 @@ namespace NSE.Core.DomainObjects
         {
             return $"{GetType().Name} [Id={Id}]";
         }
+        #endregion
+
     }
 }

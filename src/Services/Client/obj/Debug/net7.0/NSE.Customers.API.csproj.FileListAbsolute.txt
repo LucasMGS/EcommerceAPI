@@ -52,3 +52,6 @@ C:\src\C#\NerdStoreEnterprise\src\Services\Client\obj\Debug\net7.0\refint\NSE.Cu
 C:\src\C#\NerdStoreEnterprise\src\Services\Client\obj\Debug\net7.0\NSE.Customers.API.pdb
 C:\src\C#\NerdStoreEnterprise\src\Services\Client\obj\Debug\net7.0\NSE.Customers.API.genruntimeconfig.cache
 C:\src\C#\NerdStoreEnterprise\src\Services\Client\obj\Debug\net7.0\ref\NSE.Customers.API.dll
+C:\src\C#\NerdStoreEnterprise\src\Services\Client\bin\Debug\net7.0\FluentValidation.dll
+C:\src\C#\NerdStoreEnterprise\src\Services\Client\bin\Debug\net7.0\MediatR.dll
+C:\src\C#\NerdStoreEnterprise\src\Services\Client\bin\Debug\net7.0\MediatR.Contracts.dll
