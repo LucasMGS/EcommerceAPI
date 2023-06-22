@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "GTfsWawa+fI2smQu2pbBevhBEXGLQUeKnkDatqBQzT8=",
-  "Source": "NSE.Client.API",
-  "BasePath": "_content/NSE.Client.API",
+  "Hash": "UnYr8yGPuS10bt/XF5WaU9eGLrSOjzMFfKQ82r6SHws=",
+  "Source": "NSE.Customers.API",
+  "BasePath": "_content/NSE.Customers.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
