@@ -57,3 +57,5 @@ C:\src\C#\NerdStoreEnterprise\src\Services\Identity\bin\Debug\net7.0\System.Code
 C:\src\C#\NerdStoreEnterprise\src\Services\Identity\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
 C:\src\C#\NerdStoreEnterprise\src\Services\Identity\bin\Debug\net7.0\Npgsql.dll
 C:\src\C#\NerdStoreEnterprise\src\Services\Identity\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\src\C#\NerdStoreEnterprise\src\Services\Identity\bin\Debug\net7.0\NSE.WebAPI.Core.dll
+C:\src\C#\NerdStoreEnterprise\src\Services\Identity\bin\Debug\net7.0\NSE.WebAPI.Core.pdb

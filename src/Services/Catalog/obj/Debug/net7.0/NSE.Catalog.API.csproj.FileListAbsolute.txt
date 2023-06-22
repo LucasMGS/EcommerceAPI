@@ -43,3 +43,12 @@ C:\src\C#\NerdStoreEnterprise\src\Services\Catalog\bin\Debug\net7.0\Npgsql.Entit
 C:\src\C#\NerdStoreEnterprise\src\Services\Catalog\bin\Debug\net7.0\System.CodeDom.dll
 C:\src\C#\NerdStoreEnterprise\src\Services\Catalog\bin\Debug\net7.0\NSE.Core.dll
 C:\src\C#\NerdStoreEnterprise\src\Services\Catalog\bin\Debug\net7.0\NSE.Core.pdb
+C:\src\C#\NerdStoreEnterprise\src\Services\Catalog\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\src\C#\NerdStoreEnterprise\src\Services\Catalog\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\src\C#\NerdStoreEnterprise\src\Services\Catalog\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\src\C#\NerdStoreEnterprise\src\Services\Catalog\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\src\C#\NerdStoreEnterprise\src\Services\Catalog\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\src\C#\NerdStoreEnterprise\src\Services\Catalog\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\src\C#\NerdStoreEnterprise\src\Services\Catalog\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\src\C#\NerdStoreEnterprise\src\Services\Catalog\bin\Debug\net7.0\NSE.WebAPI.Core.dll
+C:\src\C#\NerdStoreEnterprise\src\Services\Catalog\bin\Debug\net7.0\NSE.WebAPI.Core.pdb

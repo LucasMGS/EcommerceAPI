@@ -1,4 +1,5 @@
 using NSE.Identity.API.Configuration;
+using NSE.WebAPI.Core.Identidade;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,8 +21,8 @@ else
     app.UseHttpsRedirection();
 }
 
-app.UseAuthorization();
-app.UseAuthentication();
+
+app.UseAuthConfiguration();
 
 app.MapControllers();
 

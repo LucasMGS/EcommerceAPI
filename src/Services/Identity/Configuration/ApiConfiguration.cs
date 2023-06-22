@@ -1,11 +1,8 @@
-
-using System.Text;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using NSE.Identidade.API.Extensions;
+using NSE.WebAPI.Core.Identidade;
 
 namespace NSE.Identity.API.Configuration;
 
@@ -22,10 +19,10 @@ static class ApiConfiguration
       configuration.AddUserSecrets<Program>();
     }
 
-    service.AddJWT(configuration)
+    service
       .AddSwagger()
       .AddDBConfig(configuration)
-      .AddIdentity();
+      .AddIdentity(configuration);
 
     return service;
   }
@@ -38,41 +35,15 @@ static class ApiConfiguration
     return service;
   }
 
-  public static IServiceCollection AddJWT(this IServiceCollection service, ConfigurationManager configuration)
-  {
-    var jwtSettings = configuration.GetSection("JWTSettings");
-    service.Configure<JWTSettings>(jwtSettings);
-    var jwtSettingsSection = jwtSettings.Get<JWTSettings>();
-    var key = Encoding.ASCII.GetBytes(jwtSettingsSection.Secret);
-
-    service.AddAuthentication(options =>
-    {
-      options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-      options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-    }).AddJwtBearer(jwtOptions =>
-    {
-      jwtOptions.RequireHttpsMetadata = false;
-      jwtOptions.SaveToken = true;
-      jwtOptions.TokenValidationParameters = new TokenValidationParameters
-      {
-        ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(key),
-        ValidateIssuer = true,
-        ValidateAudience = true,
-        ValidAudience = jwtSettingsSection.Audience,
-        ValidIssuer = jwtSettingsSection.Issuer,
-      };
-    });
-    return service;
-  }
-
-  public static IServiceCollection AddIdentity(this IServiceCollection service)
+  public static IServiceCollection AddIdentity(this IServiceCollection service,ConfigurationManager configuration)
   {
     service.AddDefaultIdentity<IdentityUser>()
         .AddRoles<IdentityRole>()
         .AddErrorDescriber<IdentityPortugueseMessages>()
         .AddEntityFrameworkStores<ApplicationDBContext>()
         .AddDefaultTokenProviders();
+
+    service.AddJwtConfiguration(configuration);
 
     return service;
   }

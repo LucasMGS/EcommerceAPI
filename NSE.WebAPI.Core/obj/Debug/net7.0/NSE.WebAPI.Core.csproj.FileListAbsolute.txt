@@ -1,0 +1,12 @@
+C:\src\C#\NerdStoreEnterprise\NSE.WebAPI.Core\bin\Debug\net7.0\NSE.WebAPI.Core.deps.json
+C:\src\C#\NerdStoreEnterprise\NSE.WebAPI.Core\bin\Debug\net7.0\NSE.WebAPI.Core.dll
+C:\src\C#\NerdStoreEnterprise\NSE.WebAPI.Core\bin\Debug\net7.0\NSE.WebAPI.Core.pdb
+C:\src\C#\NerdStoreEnterprise\NSE.WebAPI.Core\obj\Debug\net7.0\NSE.WebAPI.Core.csproj.AssemblyReference.cache
+C:\src\C#\NerdStoreEnterprise\NSE.WebAPI.Core\obj\Debug\net7.0\NSE.WebAPI.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\src\C#\NerdStoreEnterprise\NSE.WebAPI.Core\obj\Debug\net7.0\NSE.WebAPI.Core.AssemblyInfoInputs.cache
+C:\src\C#\NerdStoreEnterprise\NSE.WebAPI.Core\obj\Debug\net7.0\NSE.WebAPI.Core.AssemblyInfo.cs
+C:\src\C#\NerdStoreEnterprise\NSE.WebAPI.Core\obj\Debug\net7.0\NSE.WebAPI.Core.csproj.CoreCompileInputs.cache
+C:\src\C#\NerdStoreEnterprise\NSE.WebAPI.Core\obj\Debug\net7.0\NSE.WebAPI.Core.dll
+C:\src\C#\NerdStoreEnterprise\NSE.WebAPI.Core\obj\Debug\net7.0\refint\NSE.WebAPI.Core.dll
+C:\src\C#\NerdStoreEnterprise\NSE.WebAPI.Core\obj\Debug\net7.0\NSE.WebAPI.Core.pdb
+C:\src\C#\NerdStoreEnterprise\NSE.WebAPI.Core\obj\Debug\net7.0\ref\NSE.WebAPI.Core.dll

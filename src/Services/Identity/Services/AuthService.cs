@@ -4,8 +4,8 @@ using System.Text;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using NSE.Identidade.API.Extensions;
 using NSE.Identity.API.Models;
+using NSE.WebAPI.Core.Identidade;
 
 namespace NSE.Identity.API.Services;
 

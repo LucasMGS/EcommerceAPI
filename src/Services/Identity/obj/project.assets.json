@@ -798,6 +798,19 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "NSE.WebAPI.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.7"
+        },
+        "compile": {
+          "bin/placeholder/NSE.WebAPI.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NSE.WebAPI.Core.dll": {}
+        }
       }
     }
   },
@@ -2276,6 +2289,11 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "NSE.WebAPI.Core/1.0.0": {
+      "type": "project",
+      "path": "../../../NSE.WebAPI.Core/NSE.WebAPI.Core.csproj",
+      "msbuildProject": "../../../NSE.WebAPI.Core/NSE.WebAPI.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2288,6 +2306,7 @@
       "Microsoft.EntityFrameworkCore.Abstractions >= 7.0.7",
       "Microsoft.EntityFrameworkCore.Relational >= 7.0.7",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.7",
+      "NSE.WebAPI.Core >= 1.0.0",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 7.0.4",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -2299,11 +2318,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\src\\C#\\NerdStoreEnterprise\\src\\Services\\Identity\\NSE.Identity.API.csproj",
+      "projectUniqueName": "C:\\src\\C#\\NerdStoreEnterprise\\src\\Services\\Identity\\NSE.Identity.API.csproj",
       "projectName": "NSE.Identity.API",
-      "projectPath": "c:\\src\\C#\\NerdStoreEnterprise\\src\\Services\\Identity\\NSE.Identity.API.csproj",
+      "projectPath": "C:\\src\\C#\\NerdStoreEnterprise\\src\\Services\\Identity\\NSE.Identity.API.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "c:\\src\\C#\\NerdStoreEnterprise\\src\\Services\\Identity\\obj\\",
+      "outputPath": "C:\\src\\C#\\NerdStoreEnterprise\\src\\Services\\Identity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2325,7 +2344,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\src\\C#\\NerdStoreEnterprise\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj": {
+              "projectPath": "C:\\src\\C#\\NerdStoreEnterprise\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -16,6 +16,7 @@
           "Microsoft.EntityFrameworkCore.Abstractions": "7.0.7",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.7",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.7",
+          "NSE.WebAPI.Core": "1.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.4",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
@@ -418,6 +419,14 @@
         "dependencies": {
           "System.Text.Encodings.Web": "7.0.0"
         }
+      },
+      "NSE.WebAPI.Core/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.7"
+        },
+        "runtime": {
+          "NSE.WebAPI.Core.dll": {}
+        }
       }
     }
   },
@@ -755,6 +764,11 @@
       "sha512": "sha512-DaGSsVqKsn/ia6RG8frjwmJonfos0srquhw09TlT8KRw5I43E+4gs+/bZj4K0vShJ5H9imCuXupb4RmS+dBy3w==",
       "path": "system.text.json/7.0.0",
       "hashPath": "system.text.json.7.0.0.nupkg.sha512"
+    },
+    "NSE.WebAPI.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
