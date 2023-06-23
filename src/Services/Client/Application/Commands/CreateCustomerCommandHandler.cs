@@ -2,7 +2,7 @@
 using MediatR;
 using NSE.Client.API.Models;
 using NSE.Core.Messages;
-using NSE.Customers.API.Events;
+using NSE.Customers.API.Application.Events;
 using NSE.Customers.API.Models;
 
 namespace NSE.Customers.API.Application.Commands

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "SazcpLMOwlkHVmWp8ged/oh1x3STACcoulPmJ2XyuYBN41FoSz0yXRt15JltqbHVhkh1zlugl9Ol/mYnDzk97Q==",
+  "dgSpecHash": "TD0ahjzCQXjvawYqleyPjEQqdUeJGKSSDGs7AKI71l+ZiI/h9kuqVGVqxWigPF3HjaBjrGMWOmOeIHhxOSYeCg==",
   "success": true,
   "projectFilePath": "C:\\src\\C#\\NerdStoreEnterprise\\NSE.WebAPI.Core\\NSE.WebAPI.Core.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\lucas\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.7\\microsoft.aspnetcore.authentication.jwtbearer.7.0.7.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.15.1\\microsoft.identitymodel.jsonwebtokens.6.15.1.nupkg.sha512",

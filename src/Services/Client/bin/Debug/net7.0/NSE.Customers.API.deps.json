@@ -361,6 +361,7 @@
       },
       "NSE.WebAPI.Core/1.0.0": {
         "dependencies": {
+          "FluentValidation": "11.5.2",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.7"
         },
         "runtime": {

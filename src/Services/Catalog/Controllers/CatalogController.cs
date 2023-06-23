@@ -2,14 +2,14 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using NSE.Catalog.API.Models;
 using NSE.Catalog.Repositories;
+using NSE.WebAPI.Core.Controllers;
 using NSE.WebAPI.Core.Identidade;
 
 namespace NSE.Catalog.API.Controllers;
 
-[ApiController]
 [Route("api/[controller]")]
 [Authorize]
-public class CatalogController : Controller
+public class CatalogController : MainController
 {
     private readonly IProductRepository _productRepository;
 
@@ -25,7 +25,7 @@ public class CatalogController : Controller
         return await _productRepository.GetAll();
     }
 
-    [ClaimsAuthorize("Catalogo","Escrever")]
+    [ClaimsAuthorize("Catalogo","Ler")]
     [HttpGet("{id:guid}")]
     public async Task<Product?> GetProduct(Guid id)
     {

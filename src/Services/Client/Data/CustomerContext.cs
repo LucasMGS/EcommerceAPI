@@ -1,8 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using FluentValidation.Results;
+using Microsoft.EntityFrameworkCore;
 using NSE.Client.API.Models;
 using NSE.Core.Data;
 using NSE.Core.DomainObjects;
 using NSE.Core.Mediator;
+using NSE.Core.Messages;
 using NSE.Customers.API.Models;
 
 namespace NSE.Customers.API.Data
@@ -23,6 +25,10 @@ namespace NSE.Customers.API.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Ignore<ValidationResult>();
+            modelBuilder.Ignore<Event>();
+
+
             var entityTypes = modelBuilder.Model.GetEntityTypes();
             var stringProperties = entityTypes
                                     .SelectMany(e => e.GetProperties()
