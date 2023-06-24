@@ -59,3 +59,13 @@ C:\src\C#\NerdStoreEnterprise\src\Services\Identity\bin\Debug\net7.0\Npgsql.dll
 C:\src\C#\NerdStoreEnterprise\src\Services\Identity\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\src\C#\NerdStoreEnterprise\src\Services\Identity\bin\Debug\net7.0\NSE.WebAPI.Core.dll
 C:\src\C#\NerdStoreEnterprise\src\Services\Identity\bin\Debug\net7.0\NSE.WebAPI.Core.pdb
+C:\src\C#\NerdStoreEnterprise\src\Services\Identity\bin\Debug\net7.0\FluentValidation.dll
+C:\src\C#\NerdStoreEnterprise\src\Services\Identity\bin\Debug\net7.0\MediatR.dll
+C:\src\C#\NerdStoreEnterprise\src\Services\Identity\bin\Debug\net7.0\MediatR.Contracts.dll
+C:\src\C#\NerdStoreEnterprise\src\Services\Identity\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\src\C#\NerdStoreEnterprise\src\Services\Identity\bin\Debug\net7.0\Polly.dll
+C:\src\C#\NerdStoreEnterprise\src\Services\Identity\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\src\C#\NerdStoreEnterprise\src\Services\Identity\bin\Debug\net7.0\NSE.Core.dll
+C:\src\C#\NerdStoreEnterprise\src\Services\Identity\bin\Debug\net7.0\NSE.Core.RabbitMQ.dll
+C:\src\C#\NerdStoreEnterprise\src\Services\Identity\bin\Debug\net7.0\NSE.Core.RabbitMQ.pdb
+C:\src\C#\NerdStoreEnterprise\src\Services\Identity\bin\Debug\net7.0\NSE.Core.pdb

@@ -7,7 +7,7 @@ namespace NSE.Core.RabbitMQ;
 public static class RabbitMQExtensions
 {
     private const string RetryHeaderName = "x-retry-count";
-    public static T GetDeserializedMessage<T>(this BasicDeliverEventArgs eventArgs)
+    public static T? GetDeserializedMessage<T>(this BasicDeliverEventArgs eventArgs)
     {
         var messageBody = Encoding.UTF8.GetString(eventArgs.Body.Span);
         return JsonSerializer.Deserialize<T>(messageBody);

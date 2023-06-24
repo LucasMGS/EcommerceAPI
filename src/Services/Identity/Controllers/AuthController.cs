@@ -1,48 +1,53 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using NSE.Core.Messages.Integration;
+using NSE.Core.Messages.Integrations;
 using NSE.Identity.API.Models;
 using NSE.Identity.API.Services;
 using NSE.WebAPI.Core.Controllers;
 
 namespace NSE.Identity.API.Controllers;
 
-[Route("api/identity")]
+[Route("api/[controller]")]
 public class AuthController : MainController
 {
-private readonly SignInManager<IdentityUser> _signInManager;
-private readonly UserManager<IdentityUser> _userManager;
-private readonly IAuthService _authService;
-  public AuthController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager, IAuthService authService) 
-  {
-    _userManager = userManager;
-    _signInManager = signInManager;
-    _authService = authService;
-  }
-
-  [HttpPost("register")]
-  public async Task<IActionResult> RegisterUser([FromBody] UserRegister userRegister)
-  {
-    if (!ModelState.IsValid) return CustomResponse(ModelState);
-    var user = new IdentityUser
+    private readonly SignInManager<IdentityUser> _signInManager;
+    private readonly UserManager<IdentityUser> _userManager;
+    private readonly IAuthService _authService;
+    public AuthController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager, IAuthService authService) 
     {
-      UserName = userRegister.Email,
-      Email = userRegister.Email,
-      EmailConfirmed = true,
-    };
-
-    var userResult = await _userManager.CreateAsync(user, userRegister!.Password!);
-    if (userResult.Succeeded)
-    {
-      return CustomResponse(await _authService.GenerateToken(userRegister.Email!));
+        _userManager = userManager;
+        _signInManager = signInManager;
+        _authService = authService;
     }
 
-    foreach (var error in userResult.Errors)
+    [HttpPost("register")]
+    public async Task<IActionResult> RegisterUser([FromBody] UserRegister userRegister)
     {
-      AddErrorToStack(error.Description);
+        if (!ModelState.IsValid) return CustomResponse(ModelState);
+        var user = new IdentityUser
+        {
+            UserName = userRegister.Email,
+            Email = userRegister.Email,
+            EmailConfirmed = true,
+        };
+
+        var userResult = await _userManager.CreateAsync(user, userRegister!.Password!);
+        if (userResult.Succeeded)
+        {
+            await _authService.RegisterCustomer(userRegister);
+            return CustomResponse(await _authService.GenerateToken(userRegister.Email!));
+        }
+
+        foreach (var error in userResult.Errors)
+        {
+            AddErrorToStack(error.Description);
+        }
+
+        return CustomResponse();
     }
 
-    return CustomResponse();
-  }
+    
 
   [HttpPost("login")]
   public async Task<IActionResult> Login([FromBody] UserLogin user)
@@ -52,7 +57,8 @@ private readonly IAuthService _authService;
 
     if (result.Succeeded)
     {
-      return CustomResponse(await _authService.GenerateToken(user.Email!));
+            
+        return CustomResponse(await _authService.GenerateToken(user.Email!));
     }
     
     if(result.IsLockedOut) {

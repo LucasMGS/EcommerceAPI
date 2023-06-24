@@ -55,3 +55,4 @@ C:\src\C#\NerdStoreEnterprise\src\Services\Catalog\bin\Debug\net7.0\NSE.WebAPI.C
 C:\src\C#\NerdStoreEnterprise\src\Services\Catalog\bin\Debug\net7.0\FluentValidation.dll
 C:\src\C#\NerdStoreEnterprise\src\Services\Catalog\bin\Debug\net7.0\MediatR.dll
 C:\src\C#\NerdStoreEnterprise\src\Services\Catalog\bin\Debug\net7.0\MediatR.Contracts.dll
+C:\src\C#\NerdStoreEnterprise\src\Services\Catalog\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll

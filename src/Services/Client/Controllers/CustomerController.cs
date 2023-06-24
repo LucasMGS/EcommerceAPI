@@ -9,7 +9,7 @@ namespace NSE.Customers.API.Controllers
     [Route("api/[controller]")]
     public class CustomerController : MainController
     {
-        private IMediatorHandler _mediatorHandler;
+        private readonly IMediatorHandler _mediatorHandler;
 
         public CustomerController(IMediatorHandler mediatorHandler)
         {

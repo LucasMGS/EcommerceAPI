@@ -1,17 +1,16 @@
 ﻿using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using NSE.Core.Messages;
+using NSE.Core.Messaging;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
 namespace NSE.Core.RabbitMQ;
 
-public class RabbitMQConsumer : Message,IQueueConsumer
+public class RabbitMQConsumer : IQueueConsumer
 {
     private readonly RabbitMQConnection _rabbitConnection;
     private readonly RabbitMQSettings _rabbitSettings;
     private readonly ILogger<RabbitMQConsumer> _logger;
-    private IConnection Connection => _rabbitConnection.Connection;
 
     public RabbitMQConsumer(
         RabbitMQConnection rabbitConnection,
@@ -33,12 +32,12 @@ public class RabbitMQConsumer : Message,IQueueConsumer
 
         channel.BasicQos(prefetchSize: 0, prefetchCount: prefetchCount, global: false);
         var consumer = new AsyncEventingBasicConsumer(channel);
-
+        
         consumer.Received += async (sender, eventArgs) =>
         {
             _logger.LogInformation("Message of Type {MessageType} received on {ConsumerType}",
                 typeof(TMessage).Name,
-                MessageType);
+                GetType().Name);
 
             try
             {
@@ -46,7 +45,9 @@ public class RabbitMQConsumer : Message,IQueueConsumer
                 if (success)
                 {
                     _logger.LogInformation("Finished processing the message of type {MessageType}", typeof(TMessage).Name);
+
                     channel.BasicAck(eventArgs.DeliveryTag, multiple: false);
+
                     return;
                 }
 

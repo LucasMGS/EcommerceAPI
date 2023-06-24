@@ -1,4 +1,6 @@
 using NSE.Clientes.API.Configuration;
+using NSE.Customers.API.Bus;
+using NSE.Customers.API.Bus.Consumers;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,16 +11,17 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerConfiguration();
 builder.Services.AddApiConfiguration(builder.Configuration, builder.Environment);
 builder.Services.RegisterServices();
-builder.Services.AddMediatR(x => x.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
+
+
+builder.Services.AddHostedService<RegisteredUserIntegrationEventConsumer>();
+
+
+builder.Services.AddMediatR(x =>
+    x.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
+await new QueueCreator(app.Services).CreateQueues();
 app.UseApiConfiguration(app.Environment);
 
 app.Run();

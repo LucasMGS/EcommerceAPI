@@ -1,0 +1,15 @@
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\RabbitMQ\NSE.Core.RabbitMQ\bin\Debug\net7.0\NSE.Core.RabbitMQ.deps.json
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\RabbitMQ\NSE.Core.RabbitMQ\bin\Debug\net7.0\NSE.Core.RabbitMQ.dll
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\RabbitMQ\NSE.Core.RabbitMQ\bin\Debug\net7.0\NSE.Core.RabbitMQ.pdb
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\RabbitMQ\NSE.Core.RabbitMQ\bin\Debug\net7.0\NSE.Core.dll
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\RabbitMQ\NSE.Core.RabbitMQ\bin\Debug\net7.0\NSE.Core.pdb
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\RabbitMQ\NSE.Core.RabbitMQ\obj\Debug\net7.0\NSE.Core.RabbitMQ.csproj.AssemblyReference.cache
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\RabbitMQ\NSE.Core.RabbitMQ\obj\Debug\net7.0\NSE.Core.RabbitMQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\RabbitMQ\NSE.Core.RabbitMQ\obj\Debug\net7.0\NSE.Core.RabbitMQ.AssemblyInfoInputs.cache
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\RabbitMQ\NSE.Core.RabbitMQ\obj\Debug\net7.0\NSE.Core.RabbitMQ.AssemblyInfo.cs
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\RabbitMQ\NSE.Core.RabbitMQ\obj\Debug\net7.0\NSE.Core.RabbitMQ.csproj.CoreCompileInputs.cache
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\RabbitMQ\NSE.Core.RabbitMQ\obj\Debug\net7.0\NSE.Core.RabbitMQ.csproj.CopyComplete
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\RabbitMQ\NSE.Core.RabbitMQ\obj\Debug\net7.0\NSE.Core.RabbitMQ.dll
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\RabbitMQ\NSE.Core.RabbitMQ\obj\Debug\net7.0\refint\NSE.Core.RabbitMQ.dll
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\RabbitMQ\NSE.Core.RabbitMQ\obj\Debug\net7.0\NSE.Core.RabbitMQ.pdb
+C:\src\C#\NerdStoreEnterprise\src\Building blocks\RabbitMQ\NSE.Core.RabbitMQ\obj\Debug\net7.0\ref\NSE.Core.RabbitMQ.dll

@@ -41,7 +41,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{2E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NSE.WebAPI.Core", "NSE.WebAPI.Core\NSE.WebAPI.Core.csproj", "{E38107E2-F09B-417C-8376-C9F05B01E571}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSE.Core.RabbitMQ", "src\Building blocks\RabbitMQ\NSE.Core.RabbitMQ\NSE.Core.RabbitMQ.csproj", "{BB0E26EC-3356-484C-AF7C-5A5A703E0929}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NSE.Core.RabbitMQ", "src\Building blocks\RabbitMQ\NSE.Core.RabbitMQ\NSE.Core.RabbitMQ.csproj", "{BB0E26EC-3356-484C-AF7C-5A5A703E0929}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

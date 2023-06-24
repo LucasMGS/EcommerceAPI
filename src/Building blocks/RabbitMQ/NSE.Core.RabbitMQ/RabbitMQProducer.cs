@@ -1,6 +1,6 @@
 ﻿
 using Microsoft.Extensions.Logging;
-using NSE.Core.Messages;
+using NSE.Core.Messaging;
 using RabbitMQ.Client;
 using System.Text;
 using System.Text.Json;

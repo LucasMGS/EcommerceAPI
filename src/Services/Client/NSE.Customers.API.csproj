@@ -26,6 +26,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\NSE.WebAPI.Core\NSE.WebAPI.Core.csproj" />
     <ProjectReference Include="..\..\Building blocks\Core\NSE.Core.csproj" />
+    <ProjectReference Include="..\..\Building blocks\RabbitMQ\NSE.Core.RabbitMQ\NSE.Core.RabbitMQ.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,4 @@
-﻿namespace NSE.Core.Messages;
+﻿namespace NSE.Core.Messaging;
 
 public interface IQueueConsumer
 {

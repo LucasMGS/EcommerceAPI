@@ -7,6 +7,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddApiConfiguration(builder.Configuration, builder.Environment);
+builder.Services.AddSwaggerConfiguration();
 builder.Services.AddServices();
 
 var app = builder.Build();
@@ -23,7 +24,7 @@ else
 
 
 app.UseAuthConfiguration();
-
+app.UseSwagger();
 app.MapControllers();
 
 app.Run();
